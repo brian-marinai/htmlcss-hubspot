@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.button-orange{
+  background-color: #F07013;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* regole di riga */
+.centratura{
+  padding: 0 10%;
+}
+
+.riga::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colonna15{
+  width: 15%;
+  float: left;
+  /* debug */
+}
+
+.colonna33{
+  width: calc(100% / 3);
+  float: left;
+  /* debug */
+}
+
+.colonna40{
+  width: 40%;
+  float: left;
+  /* debug */
+}
+
+.colona45{
+  width: 45%;
+  float: left;
+  /* debug */
+}
+
+.colonna50{
+  width: 50%;
+  float: left;
+  /* debug */
+}
+
+/* parte header */
+header{
+  font-family: "Roboto", sans-serif;
+}
+.menu1{
+  display: block;
+  background-color: #eff7ff;
+  border-bottom: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+.nav1{
+  line-height: 60px;
+}
+.nav1 ul li{
+  display: inline-block;
+}
+.nav1 a{
+  margin-right: 30px;
+  color: slategrey;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+.destra{
+  float: right;
+}
+#search{
+  color: #2d659d;
+}
+#logo{
+  margin-top: 20px;
+}
+
+/* parte jumbo */
+.jumbo{
+  height: 800px;
+  background-image: url("../img/jumbotron.png");
+  background-position: right;
+  background-repeat: space;
+  background-size: 100%;
+}
+
+.scritte{
+  color: slategrey;
+  float: left;
+  padding-top: 100px;
+}
+.scritte h1{
+ font-size: 50px;
+}
+.scritte p{
+  padding-top: 40px;
+  font-size: 20px;
+}
+.jumbo a{
+  margin-top: 30px;
+}
