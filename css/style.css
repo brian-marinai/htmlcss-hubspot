@@ -116,3 +116,71 @@ header{
 .jumbo a{
   margin-top: 30px;
 }
+/* parte principale */
+
+main{
+ font-family: "Roboto", sans-serif;
+ color: slategrey;
+}
+.sfondo{
+  background-color: #f0f9ff;
+}
+
+.cubo img{
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+}
+.cubo h2{
+  font-size: 50px;
+  text-align: center;
+}
+.cubo p{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.centro{
+  margin-top: 50px;
+  background-color: white;
+  height: 400px;
+}
+.illustrazione{
+  float: left;
+  width: 30%;
+}
+.illustrazione img{
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+}
+.illustrazione a{
+  margin-left: 158px;
+  margin-top: 35px;
+}
+
+#dx{
+  width: 65%;
+  float: right;
+}
+#dx h2{
+  padding-top: 70px;
+}
+#dx p{
+  padding-top: 30px;
+}
+#dx li{
+  display: inline-block;
+  margin-right: 40px;
+}
+#dx ul{
+  margin-top: 30px;
+}
+#dx i{
+  color: #F07013;
+}
