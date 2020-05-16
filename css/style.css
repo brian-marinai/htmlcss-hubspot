@@ -299,7 +299,6 @@ main{
 
 .colonna40{
   float: left;
-  height: 300px;
   width: 40%;
   float: left;
   /* debug */
@@ -328,7 +327,9 @@ main{
   display: inline-block;
   height: 20px;
 }
-
+.contenuto3sotto{
+  height: 800px;
+}
 .colonna60 h2{
   padding-top: 50px;
   font-size: 35px;
@@ -346,9 +347,67 @@ main{
   font-size: 15px;
   margin-bottom: 50px;
 }
+.donna{
+  width: 80%;
+}
+.donna img{
+  height: 300px;
+  float: right;
+}
 /* parte footer */
 footer{
-  margin-top: 200px;
-  height: 400px;
+  font-family: "Roboto", sans-serif;
+  height: 800px;
   background-color: #33475b;
+}
+.colonnafooter{
+  float: left;
+  width: 25%;
+}
+.colonnafooter h2{
+  color: #f0f9ff;
+  font-size: 20px;
+  padding-top: 40px;
+}
+.colonnafooter ul{
+  padding-top: 25px;
+  list-style-type: none;
+}
+.colonnafooter li{
+  color: #f0f9ff;
+  line-height: 35px;
+}
+#button{
+  background-color: #f0f9ff;
+  border: none;
+  border-radius: 10px;
+  color: #33475b;
+  padding: 3px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#fontawesome{
+  padding-top: 10px;
+}
+
+#fontawesome li{
+  margin-right: 20px;
+  display: inline-block;
+}
+
+#lingue{
+  color: #f0f9ff;
+  text-align: center;
+}
+#lingue li{
+  display: inline-block;
+  margin-right: 20px;
+}
+#linea{
+  color: #f0f9ff;
+  margin-top: 20px;
 }
