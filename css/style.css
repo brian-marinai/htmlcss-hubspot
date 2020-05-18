@@ -56,6 +56,10 @@ header{
   border-bottom: solid;
   border-color: black;
   border-width: 1px;
+  width: 100%;
+}
+#regole{
+  display: block;
 }
 
 .nav1{
@@ -410,4 +414,25 @@ footer{
 #linea{
   color: #f0f9ff;
   margin-top: 20px;
+}
+.logo{
+  float: left;
+  padding-top: 40px;
+}
+.logo img{
+  background-color: white;
+}
+.logo h2{
+  padding-top: 10px;
+  color: #f0f9ff;
+  font-size: 20px;
+}
+.legal p{
+  padding-top: 50px;
+  display: inline-block;
+  color: #f0f9ff;
+  margin-right: 10px;
+}
+.colonna50 .legal{
+  float: right;
 }
