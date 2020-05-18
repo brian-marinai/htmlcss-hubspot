@@ -57,6 +57,8 @@ header{
   border-color: black;
   border-width: 1px;
   width: 100%;
+  position: fixed;
+  height: 85px;
 }
 #regole{
   display: block;
@@ -64,6 +66,7 @@ header{
 
 .nav1{
   line-height: 60px;
+  margin-top: 10px;
 }
 .nav1 ul li{
   display: inline-block;
@@ -74,10 +77,23 @@ header{
   font-size: 20px;
   text-decoration: none;
 }
-
+.menu2{
+  padding-top: 85px;
+}
 
 .destra{
   float: right;
+}
+.destra .button-orange{
+  color: white;
+  padding: 0px 10px;
+}
+#login .button-orange{
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #F07013;
+  color: #F07013;
 }
 #search{
   color: #2d659d;
@@ -88,6 +104,7 @@ header{
 
 /* parte jumbo */
 .jumbo{
+  margin-top: 10px;
   height: 800px;
   background-image: url("../img/jumbotron.png");
   background-position: right;
